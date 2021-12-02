@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+body{
+    background-color: crimson;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+::selection{
+    color: white;
+    background-color: brown;
+}
+
+.btn{
+    height: 42px;
+    width: 100px;
+    border-radius: 6px;
+    border: 0px;
+    font-size: 22px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: white;
+}
+
+#btn6{
+    background-color: rgb(66, 183, 187);
+    opacity: 0.8;
+}
+
+#btn6:hover{
+    opacity: 1;
+}
+
+#btn5{
+    background-color: rgb(173, 66, 187);
+    opacity: 0.8;
+}
+
+#btn5:hover{
+    opacity: 1;
+}
+
+#btn4{
+    background-color: rgb(91, 197, 41);
+    opacity: 0.8;
+}
+
+#btn4:hover{
+    opacity: 1;
+}
+
+#btn3{
+    background-color: rgb(33, 81, 212);
+    opacity: 0.8;
+}
+
+#btn3:hover{
+    opacity: 1;
+}
+
+#btn2{
+    background-color: rgb(33, 212, 108);
+    opacity: 0.8;
+}
+
+#btn2:hover{
+    opacity: 1;
+}
+
+#btn1{
+    background-color: rgb(212, 33, 173);
+    opacity: 0.8;
+}
+
+#btn1:hover{
+    opacity: 1;
+}
